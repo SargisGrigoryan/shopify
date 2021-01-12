@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box {
+  min-height: 250px;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.dark {
+  background-color: #2e2e2e;
+  color: #FFFFFF;
+}
+
+.light {
+  background-color: #FFFFFF;
+  color: #2e2e2e;
+}
+
+.padding_center_1,
+.padding_top_1 {
+  padding-top: 100px;
+}
+
+.padding_center_2,
+.padding_top_2 {
+  padding-top: 200px;
+}
+
+.padding_center_1,
+.padding_bottom_1 {
+  padding-bottom: 100px;
+}
+
+.padding_center_2,
+.padding_bottom_2 {
+  padding-bottom: 200px;
+}
+
+.color_1 {
+  color: #F6F6F6;
+}
+
+.color_2 {
+  color: #FF8282;
+}
+
+.color_3 {
+  color: #F1F1F1;
+}
+
+.color_4 {
+  color: #E6E6E6;
+}
+
+.color_5 {
+  color: #8D8D8D;
+}
+
+.color_6 {
+  color: #FFFFFF;
+}
+
+.color_7 {
+  color: #2e2e2e;
+}
+
+.color_8 {
+  color: #DFDFDF;
+}
+
+.font_size_1 {
+  font-size: 80px;
+}
+
+.font_size_2 {
+  font-size: 60px;
+}
+
+.font_size_3 {
+  font-size: 50px;
+}
+
+.font_size_4 {
+  font-size: 40px;
+}
+
+.font_size_5 {
+  font-size: 35px;
+}
+
+.font_size_6 {
+  font-size: 33px;
+}
+
+.font_size_7 {
+  font-size: 30px;
+}
+
+.font_size_8 {
+  font-size: 20px;
+}
+
+.font_size_9 {
+  font-size: 18px;
+}
+
+.font_size_10 {
+  font-size: 16px;
+}
+
+.font_size_11 {
+  font-size: 14px;
+}
+
+.font_size_12 {
+  font-size: 12px;
+}
+
+.font_size_13 {
+  font-size: 11px;
+}
+
+.bttn {
+  margin-top: 30px;
+  padding: 8px 16px;
+  border: 0;
+}
+
+nav.navbar {
+  background-color: #2e2e2e;
+}
+
+nav.navbar .navbar-brand,
+nav.navbar .nav-item .nav-link {
+  color: #DFDFDF;
+}
+
+section#slider {
+  background-color: #2e2e2e;
+  color: #DFDFDF;
+  min-height: calc(100vh - 56px);
+}
+
+section#slider .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+section#slider .carousel-item {
+  background-color: #5B5B5B;
+  padding: 20px;
+}
+
+section#slider .slider-text-side {
+  display: inline-block;
+  background-color: #787878;
+  max-width: 685px;
+  padding: 40px;
+}
+
+section#slider .slider-image-side {
+  display: inline-block;
+  max-width: 685px;
+  overflow: hidden;
+}
+
+section#slider .slider-image-side img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

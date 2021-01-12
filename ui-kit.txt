@@ -1,0 +1,27 @@
+// Colors
+
+#F6F6F6
+#FF8282
+#F1F1F1
+#E6E6E6
+#8D8D8D
+#FFFFFF
+#393939
+#DFDFDF
+
+
+// Fonts
+
+80px
+60px
+50px
+40px
+35px
+33px
+30px
+20px
+18px
+16px
+14px
+12px
+11px

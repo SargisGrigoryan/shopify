@@ -1,0 +1,209 @@
+// ___Colors___
+$color_1: #F6F6F6;
+$color_2: #FF8282;
+$color_3: #F1F1F1;
+$color_4: #E6E6E6;
+$color_5: #8D8D8D;
+$color_6: #FFFFFF;
+$color_7: #2e2e2e;
+$color_8: #DFDFDF;
+$color_9: #5B5B5B;
+$color_10: #787878;
+
+// ___Fonts___
+$font_size_1: 80px;
+$font_size_2: 60px;
+$font_size_3: 50px;
+$font_size_4: 40px;
+$font_size_5: 35px;
+$font_size_6: 33px;
+$font_size_7: 30px;
+$font_size_8: 20px;
+$font_size_9: 18px;
+$font_size_10: 16px;
+$font_size_11: 14px;
+$font_size_12: 12px;
+$font_size_13: 11px;
+
+// ___General___
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    min-height: 250px;
+    padding: 15px;
+    margin-top: 30px;
+}
+.dark{
+    background-color: $color_7;
+    color: $color_6;
+}
+.light{
+    background-color: $color_6;
+    color: $color_7;
+}
+
+
+// ___Main classes___
+// paddings (top, bottom, both)
+.padding_center_1,
+.padding_top_1{
+    padding-top: 100px;
+}
+.padding_center_2,
+.padding_top_2{
+    padding-top: 200px;
+}
+.padding_center_1,
+.padding_bottom_1{
+    padding-bottom: 100px;
+}
+.padding_center_2,
+.padding_bottom_2{
+    padding-bottom: 200px;
+}
+// Colors
+.color_1{
+    color: $color_1;
+}
+.color_2{
+    color: $color_2;
+}
+.color_3{
+    color: $color_3;
+}
+.color_4{
+    color: $color_4;
+}
+.color_5{
+    color: $color_5;
+}
+.color_6{
+    color: $color_6;
+}
+.color_7{
+    color: $color_7;
+}
+.color_8{
+    color: $color_8;
+}
+// fonts sizes
+.font_size_1{
+    font-size: $font_size_1;
+}
+.font_size_2{
+    font-size: $font_size_2;
+}
+.font_size_3{
+    font-size: $font_size_3;
+}
+.font_size_4{
+    font-size: $font_size_4;
+}
+.font_size_5{
+    font-size: $font_size_5;
+}
+.font_size_6{
+    font-size: $font_size_6;
+}
+.font_size_7{
+    font-size: $font_size_7;
+}
+.font_size_8{
+    font-size: $font_size_8;
+}
+.font_size_9{
+    font-size: $font_size_9;
+}
+.font_size_10{
+    font-size: $font_size_10;
+}
+.font_size_11{
+    font-size: $font_size_11;
+}
+.font_size_12{
+    font-size: $font_size_12;
+}
+.font_size_13{
+    font-size: $font_size_13;
+}
+
+
+// ___Buttons___
+.bttn{
+    margin-top: 30px;
+    padding: 8px 16px;
+    border: 0;
+}
+
+
+// ___Navigation___
+nav.navbar{
+    background-color: $color_7;
+}
+nav.navbar .navbar-brand,
+nav.navbar .nav-item .nav-link{
+    color: $color_8;
+}
+
+
+// ___Sections___
+
+// Slider
+section#slider{
+    background-color: $color_7;
+    color: $color_8;
+    min-height: calc(100vh - 56px);
+}
+section#slider .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+section#slider .carousel-item{
+    background-color: $color_9;
+    padding: 20px;
+}
+section#slider .slider-text-side{
+    display: inline-block;
+    background-color: $color_10;
+    max-width: 685px;
+    padding: 40px;
+}
+section#slider .slider-image-side{
+    display: inline-block;
+    max-width: 685px;
+    overflow: hidden;
+}
+section#slider .slider-image-side img{
+    width: 100%;
+}
+
+
+// ___Breakpoints___
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
