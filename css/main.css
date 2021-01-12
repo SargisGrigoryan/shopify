@@ -140,6 +140,10 @@ nav.navbar .nav-item .nav-link {
   color: #DFDFDF;
 }
 
+nav.navbar .navbar-toggler {
+  color: #fff;
+}
+
 section#slider {
   background-color: #2e2e2e;
   color: #DFDFDF;
