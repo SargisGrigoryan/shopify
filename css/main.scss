@@ -376,6 +376,25 @@ section#faq{
     color: $color_1;
 }
 
+// My profile
+section#my-profile .profile-img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+section#my-profile ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+section#my-profile ul li a{
+    text-decoration: none;
+    color: $color_7;
+}
+section#my-profile ul li a:hover{
+    text-decoration: underline;
+}
+
 // Footer
 footer{
     background-color: $color_3;
@@ -409,6 +428,12 @@ footer ul li a{
     section#comments .comment-bg .user-comment{
         max-width: 100%; 
     }
+
+    // My profile
+    section#my-profile .profile-img{
+        width: 240px;
+        height: 240px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -421,6 +446,12 @@ footer ul li a{
     }
     section#comments .comment-bg .user-comment{
         max-width: 100%; 
+    }
+
+    // My profile
+    section#my-profile .profile-img{
+        width: 450px;
+        height: 450px;
     }
 }
 
@@ -435,10 +466,20 @@ footer ul li a{
     section#comments .comment-bg .user-comment{
         max-width: calc(100% - 74px);
     }
+
+    // My profile
+    section#my-profile .profile-img{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media (min-width: 992px) {
-
+    // My profile
+    section#my-profile .profile-img{
+        width: 450px;
+        height: 450px;
+    }
 }
 
 @media (min-width: 1200px) {
