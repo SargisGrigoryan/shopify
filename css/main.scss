@@ -140,7 +140,7 @@ body{
     position: relative;
     
 }
-.top-product{
+.carousel-product{
     padding: 0;
     max-width: 330px;
 }
@@ -204,6 +204,11 @@ body{
 .social-links a:hover{
     transform: translateY(-5px);
 }
+// Responsive image
+.img-resp{
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 // ___Buttons___
@@ -225,6 +230,22 @@ body{
     color: $color_5;
     background-color: $color_4;
     margin-top: 0;
+}
+
+
+// ___Inputs___
+// Main input settings
+.custom-input{
+    border: 2px solid $color_9;
+}
+// input type number
+.custom-input[type="number"]{
+    padding: 2px 0 2px 5px;
+    
+}
+// input type text
+.custom-input[type="text"]{
+    padding: 2px 2px 5px;
 }
 
 
@@ -280,6 +301,38 @@ section#slider .scroll-down-link{
 
 // Top products
 section#top-products{
+    background-color: $color_3;
+    color: $color_7;
+}
+
+// Details
+section#details ul{
+    padding-left: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+section#details input[name="qty"]{
+    width: 50px;
+}
+section#details .details-image-side{
+    max-width: 550px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+section#details .details-image-side ul{
+    list-style: none;
+    padding: 0;
+}
+section#details .details-image-side ul li{
+    max-width: calc(25% - 5px);
+    float: left;
+    border: 5px solid $color_3;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+// Similar products
+section#similar-products{
     background-color: $color_3;
     color: $color_7;
 }

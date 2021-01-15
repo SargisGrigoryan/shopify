@@ -136,7 +136,7 @@ body {
   position: relative;
 }
 
-.top-product {
+.carousel-product {
   padding: 0;
   max-width: 330px;
 }
@@ -218,6 +218,11 @@ body {
           transform: translateY(-5px);
 }
 
+.img-resp {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .bttn {
   margin-top: 30px;
   padding: 8px 16px;
@@ -239,6 +244,18 @@ body {
   color: #8D8D8D;
   background-color: #E6E6E6;
   margin-top: 0;
+}
+
+.custom-input {
+  border: 2px solid #646464;
+}
+
+.custom-input[type="number"] {
+  padding: 2px 0 2px 5px;
+}
+
+.custom-input[type="text"] {
+  padding: 2px 2px 5px;
 }
 
 nav.navbar {
@@ -295,6 +312,40 @@ section#slider .scroll-down-link {
 }
 
 section#top-products {
+  background-color: #F1F1F1;
+  color: #333333;
+}
+
+section#details ul {
+  padding-left: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+section#details input[name="qty"] {
+  width: 50px;
+}
+
+section#details .details-image-side {
+  max-width: 550px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+section#details .details-image-side ul {
+  list-style: none;
+  padding: 0;
+}
+
+section#details .details-image-side ul li {
+  max-width: calc(25% - 5px);
+  float: left;
+  border: 5px solid #F1F1F1;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+section#similar-products {
   background-color: #F1F1F1;
   color: #333333;
 }
