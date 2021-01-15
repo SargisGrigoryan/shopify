@@ -216,12 +216,21 @@ body{
     margin-top: 30px;
     padding: 8px 16px;
     border: 0;
+    text-decoration: none;
 }
 .bttn-dark{
     background-color: $color_7;
     color: $color_8;
 }
+.bttn-dark:hover{
+    background-color: $color_7;
+    color: $color_8;
+}
 .bttn-light{
+    background-color: $color_8;
+    color: $color_7;
+}
+.bttn-light:hover{
     background-color: $color_8;
     color: $color_7;
 }
@@ -315,7 +324,7 @@ section#details input[name="qty"]{
     width: 50px;
 }
 section#details .details-image-side{
-    max-width: 550px;
+    max-width: 400px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -357,8 +366,14 @@ section#comments .comment-bg .user-comment.user-comment-me{
 
 // Similar products
 section#similar-products{
-    background-color: $color_3;
+    background-color: $color_1;
     color: $color_7;
+}
+
+// FAQ
+section#faq{
+    background-color: $color_7;
+    color: $color_1;
 }
 
 // Footer

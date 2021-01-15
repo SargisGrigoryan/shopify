@@ -227,6 +227,7 @@ body {
   margin-top: 30px;
   padding: 8px 16px;
   border: 0;
+  text-decoration: none;
 }
 
 .bttn-dark {
@@ -234,7 +235,17 @@ body {
   color: #ebebeb;
 }
 
+.bttn-dark:hover {
+  background-color: #333333;
+  color: #ebebeb;
+}
+
 .bttn-light {
+  background-color: #ebebeb;
+  color: #333333;
+}
+
+.bttn-light:hover {
   background-color: #ebebeb;
   color: #333333;
 }
@@ -327,7 +338,7 @@ section#details input[name="qty"] {
 }
 
 section#details .details-image-side {
-  max-width: 550px;
+  max-width: 400px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -377,8 +388,13 @@ section#comments .comment-bg .user-comment.user-comment-me {
 }
 
 section#similar-products {
-  background-color: #F1F1F1;
+  background-color: #F6F6F6;
   color: #333333;
+}
+
+section#faq {
+  background-color: #333333;
+  color: #F6F6F6;
 }
 
 footer {
